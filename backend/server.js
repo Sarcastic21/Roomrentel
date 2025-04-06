@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" })); // Increase URL-
 
 // Configure CORS
 const corsOptions = {
-  origin: ["http://localhost:5173", "https://your-live-domain.com"], // Allow specific origins
+  origin: ["http://localhost:5173", "https://roomrentel009.netlify.com"], // Allow specific origins
   methods: "GET,POST,PUT,DELETE,PATCH", // Allow specific HTTP methods
   credentials: true, // Allow cookies (if needed)
 };
